@@ -1,0 +1,41 @@
+.home{
+    color: white;
+    margin-top: 20px;
+    
+}
+.home .description{
+    float: left;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding:10px;
+    margin-left: 80px;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(156, 156, 156,0.6);
+}
+
+.home .rightnav{
+    background-color: rgb(156, 156, 156,0.6);
+    float: right;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 80px;
+    height: 200px;
+    padding:10px;
+}
+
+.home .search{
+    position: fixed;
+    margin-top: 400px;
+    margin-left: 34%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.home .search input{
+background-color:rgb(238,238,238,0.6);
+border-radius: 10px;
+font-size: 40px;
+}

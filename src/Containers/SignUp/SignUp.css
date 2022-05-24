@@ -1,0 +1,97 @@
+main {
+    background-color: #EFEFEF;
+    width: 33%;
+    margin: 120px 0 50px 65px;
+    border-radius: 20px;
+    padding: 7px 11px;    
+    box-sizing: border-box;
+
+}
+
+ h2 {
+    text-align: center;
+}
+
+.register {
+    text-align: left;
+    margin-left: 10px;
+    font-weight: 300;
+
+}
+
+.signupInput input, div select {
+    display: block;
+    width: 97%;
+    height: 29px;
+    border-radius: 10px;
+    border: 1px solid rgb(204, 199, 199);
+    outline: none;
+    margin-bottom: 3px;
+}
+
+div select {
+    height: 33px;
+    border-radius: 5px;
+    width: 9rem
+
+}
+
+div label {
+    font-size: .7rem;
+}
+
+.name {
+    display: inline-block;
+    margin-left: 14px;
+}
+
+.other {
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+input[type="date"] {
+    width: 9rem;
+}
+
+.email, .password {
+    margin: 10px 10px 0;
+}
+
+
+button {    
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding:5px 10px;
+    cursor: pointer;
+    outline: none;
+    background-color: #FED440;
+    outline: none;
+    border: 1px solid black;
+}
+
+.submit button:hover {
+    background-color: darkorange;
+}
+
+.submit {
+    margin-top: 20px;
+    padding: 20px 0 40px;
+    text-align: center;
+}
+
+.signupInput .errorInput {
+  border: 1px solid red;
+  box-shadow: 1px 1px 1px rgba(255, 0, 0, 0.46)
+}
+
+.signupInput {
+    margin-top: 20px;
+}
+
+
+
+
+

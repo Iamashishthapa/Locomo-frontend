@@ -1,0 +1,101 @@
+html{
+    background: black;
+    font-size: 20px;
+  }
+
+.LoginPage {
+  margin-top: 100px;
+  text-align: center;
+
+}
+
+.LoginBody{
+  display: flex;
+  flex-flow: column;
+  width: 21.5%;
+  margin: auto;
+  background-color: #EFEFEF;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.wrapper {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+p {
+  text-align: center;
+}
+
+p.locomoTitle {
+    text-transform: uppercase;
+    color: wheat;
+    font-size: 25px;
+}
+
+.wrapper input {
+  border-radius: 20px;
+  width: 90%;
+  margin: 0 7px ;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  border:solid 1px #ccc;
+  box-sizing: border-box;
+  outline: none;
+}
+
+label {
+  font-size: 16px;
+}
+
+
+.errorInput {
+  border: 1px solid red;
+  box-shadow: 1px 1px 1px rgba(255, 0, 0, 0.46)
+}
+
+.error {
+  color: red;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  padding-left: 20px;
+  position: absolute;
+
+}
+
+.btnLogin {
+  margin-bottom: 15px;   
+}
+
+.btn-login {
+  height: 40px;
+  width: 120px;
+  border-radius: 10px;
+  font-size: 18px;
+  padding:5px 10px;
+  cursor: pointer;
+  outline: none;
+  outline: none;
+  background-color: black;
+  border: 1px solid blackk;
+  color:white;
+}
+
+.tosignup {
+  margin: 40px auto;
+  padding: 17px 20px;
+  max-width: 22%;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #FED440;
+  box-sizing: border-box;
+}
+
+
+.tosignup a {
+  color:  black;
+  font-size: 15px;
+
+}
